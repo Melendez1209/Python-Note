@@ -11,7 +11,8 @@ def p():
 
 # 弹出通知
 toast1 = ToastNotifier()
-toast1.show_toast(title='Python', msg='人生苦短我用Python', icon_path='D:\Codes\Python\python.ico', duration=2,
+toast1.show_toast(title='Python', msg='人生苦短我用Python', icon_path='E:\Codes\Python\python.ico',
+                  duration=2,
                   threaded=False,
                   callback_on_click=p
                   )
