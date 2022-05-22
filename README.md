@@ -22,9 +22,14 @@
 
 嘿！恭喜你，看到**重头戏**了！这个文件夹是干什么的呢？它是一个**工具**文件夹，里面包含了一些**Python工具**，管理Python第三方库的更新，或者是自定义你的idea新项目模板。
 
-## 但你仔细学习完这些时，你会回来感谢我的
+## 但你仔细学习完这些时，你会回来感谢我的（加鸡腿）
 
 当然，既然你上手了Python，那么，本仓库也可以是你的一个贴心的辅助，让你的Python编程更加简单，更加快捷。 希望你也能加入到本仓库的贡献者行列中，让我们一起学习Python，完善本仓库，一同进步！
+
+![7298f99ec9b24b6da63d98ee3ab7602](https://user-images.githubusercontent.com/92637479/169689274-517b7914-7275-40b6-b725-aa76235f67e5.jpg)
+
+![428047a7314573e1fc2ce5437ce8d26](https://user-images.githubusercontent.com/92637479/169689267-679b3dab-e9ee-4355-a7e2-69b9c1268782.jpg)
+
 
 # 结语
 
@@ -58,11 +63,16 @@ advanced technologies, and later learning.
 Hey! Congratulations, see the **big play**! What is this folder for? It is a **tool** folder, which contains some
 **Python tools**to manage the update of Python third-party libraries, or customize your idea new project template.
 
-## But when you finish studying these carefully, you will come back and thank me
+## But when you finish studying these carefully, you will come back and thank me（Support it）
 
 Of course, now that you have started python, this warehouse can also be a close aid to you, making your Python
 Programming simpler and faster. I hope you can also join the ranks of contributors to this warehouse. Let's learn Python
 together, improve this warehouse and make progress together!
+
+![7298f99ec9b24b6da63d98ee3ab7602](https://user-images.githubusercontent.com/92637479/169689274-517b7914-7275-40b6-b725-aa76235f67e5.jpg)
+
+![428047a7314573e1fc2ce5437ce8d26](https://user-images.githubusercontent.com/92637479/169689267-679b3dab-e9ee-4355-a7e2-69b9c1268782.jpg)
+
 
 # End
 
