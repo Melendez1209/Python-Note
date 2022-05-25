@@ -5,10 +5,12 @@
 # 进程（process）是资源分配的最小单位，每个程序至少有1个进程
 # 程序开始运行系统会默认创建一个主进程
 # 多进程除创建主进程外，还有不少于1个的子进程
-def main():
-    import threading  # 线程包
-    import time
 
+import threading  # 线程包
+import time
+
+
+def main():
     #  定义多个方法
     def sing():
         """唱歌5秒钟"""

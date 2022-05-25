@@ -4,6 +4,7 @@ import re
 
 txt = "China is a great country"
 jieguo = re.search("^China.*country$", txt)  # 检索字符串以查看它是否以 "China" 开头并以 "country" 结尾
+
 if jieguo:
     print("Yes")
 else:
