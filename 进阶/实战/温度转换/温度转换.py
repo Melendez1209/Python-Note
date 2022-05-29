@@ -13,7 +13,7 @@ import PySimpleGUI as gui
 # 定义必要变量（函数等）
 main_layout = [
     [gui.T("欢迎使用温度转换器！！！")],
-    [gui.B("℉——>℃"), gui.B("℃——>℉")]
+    [gui.B("℉——>℃"), gui.B("℃——>℉"), gui.B("换算公式")]
 ]
 
 Transforms_Layout = [
@@ -28,7 +28,7 @@ def transforms(title):
     if tlevent is None:
         logging.error("换算窗口关闭")
         tlwindow.close()
-    if tlevent == "确定":
+    elif tlevent == "确定":
         # 判断数据可否转换为浮点型
         try:
             tlvalue = float(tlvalue[0])
@@ -37,10 +37,9 @@ def transforms(title):
                 new_value = (tlvalue - 32) / 1.8
             else:
                 new_value = tlvalue * 1.8 + 32
-
+            gui.popup(new_value)
         except:
             gui.popup("您键入了错误的数据！！！")
-        return new_value
 
 
 # 定义mian函数
@@ -55,12 +54,13 @@ def main():
         logging.error("℉——>℃")
         new_value = transforms("℉——>℃")
         main_gui.close()
-        gui.popup(new_value)
     elif event == "℃——>℉":
         logging.error("℃——>℉")
         new_value = transforms("℃——>℉")
         main_gui.close()
-        gui.popup(new_value)
+    elif event == "换算公式":
+        gui.popup("""℉=℃×1.8+32
+℃=(℉-32)÷1.8""")
 
     else:
         pass
