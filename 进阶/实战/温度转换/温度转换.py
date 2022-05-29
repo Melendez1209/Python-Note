@@ -24,33 +24,43 @@ Transforms_Layout = [
 
 def transforms(title):
     tlwindow = gui.Window(title, Transforms_Layout)
-    tlevent, tlvalues = tlwindow.read()
+    tlevent, tlvalue = tlwindow.read()
     if tlevent is None:
         logging.error("换算窗口关闭")
         tlwindow.close()
     if tlevent == "确定":
         # 判断数据可否转换为浮点型
         try:
-            tlvalues = float(tlvalues[0])
+            tlvalue = float(tlvalue[0])
+            # 判断新数值的类型
+            if title == "℉——>℃":
+                new_value = (tlvalue - 32) / 1.8
+            else:
+                new_value = tlvalue * 1.8 + 32
+
         except:
             gui.popup("您键入了错误的数据！！！")
+        return new_value
+
 
 # 定义mian函数
 def main():
     main_gui = gui.Window("温度转换器", main_layout)
-    event, values = main_gui.read()
+    event, value = main_gui.read()
 
     if event is None:
         logging.error("关闭主窗口")
         main_gui.close()
     elif event == "℉——>℃":
         logging.error("℉——>℃")
-        transforms("℉——>℃")
+        new_value = transforms("℉——>℃")
         main_gui.close()
+        gui.popup(new_value)
     elif event == "℃——>℉":
         logging.error("℃——>℉")
-        transforms("℃——>℉")
+        new_value = transforms("℃——>℉")
         main_gui.close()
+        gui.popup(new_value)
 
     else:
         pass
