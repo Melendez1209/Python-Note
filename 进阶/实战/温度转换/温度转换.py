@@ -17,7 +17,7 @@ main_layout = [
 ]
 
 Transforms_Layout = [
-    [gui.T("请键入温度:"), gui.In()],
+    [gui.T("请键入温度(无需单位):"), gui.In()],
     [gui.B("确定")]
 ]
 
@@ -29,13 +29,16 @@ def transforms(title):
         logging.error("换算窗口关闭")
         tlwindow.close()
     if tlevent == "确定":
-        pass
-
+        # 判断数据可否转换为浮点型
+        try:
+            tlvalues = float(tlvalues[0])
+        except:
+            gui.popup("您键入了错误的数据！！！")
 
 # 定义mian函数
 def main():
     main_gui = gui.Window("温度转换器", main_layout)
-    event = main_gui.read()
+    event, values = main_gui.read()
 
     if event is None:
         logging.error("关闭主窗口")
