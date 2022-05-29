@@ -37,6 +37,7 @@ def transforms(title):
                 new_value = (tlvalue - 32) / 1.8
             else:
                 new_value = tlvalue * 1.8 + 32
+            new_value = round(new_value, 0)
             gui.popup(new_value)
         except:
             gui.popup("您键入了错误的数据！！！")
@@ -52,11 +53,11 @@ def main():
         main_gui.close()
     elif event == "℉——>℃":
         logging.error("℉——>℃")
-        new_value = transforms("℉——>℃")
+        transforms("℉——>℃")
         main_gui.close()
     elif event == "℃——>℉":
         logging.error("℃——>℉")
-        new_value = transforms("℃——>℉")
+        transforms("℃——>℉")
         main_gui.close()
     elif event == "换算公式":
         gui.popup("""℉=℃×1.8+32
