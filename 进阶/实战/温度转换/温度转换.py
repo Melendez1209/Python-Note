@@ -29,7 +29,7 @@ def transforms(title):
         logging.error("换算窗口关闭")
         tlwindow.close()
     if tlevent == "确定":
-
+        pass
 
 
 # 定义mian函数
