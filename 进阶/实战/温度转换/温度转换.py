@@ -6,13 +6,21 @@
 # @desc :
 # -----------------------------begin-------------------------------
 # 导入依赖包
-import
-
+import PySimpleGUI as gui
 
 # 定义必要变量（函数等）
+main_layout = [
+    [gui.T("欢迎使用温度转换器！！！")],
+    [gui.B("℉——>℃"), gui.B("℃——>℉")]
+]
+
 
 # 定义mian函数
 def main():
+    main_gui = gui.Window("温度转换器", main_layout)
+    event, values = main_gui.read()
+    if event is None:
+        main_gui.close()
 
 
 # 调用main函数
