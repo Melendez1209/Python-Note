@@ -32,12 +32,14 @@ def transforms(title):
         # 判断数据可否转换为浮点型
         try:
             tlvalue = float(tlvalue[0])
+            logging.error("input:" + str(tlvalue))
             # 判断新数值的类型
             if title == "℉——>℃":
                 new_value = (tlvalue - 32) / 1.8
             else:
                 new_value = tlvalue * 1.8 + 32
             new_value = round(new_value, 0)
+            logging.error("output:" + str(new_value))
             gui.popup(new_value)
         except:
             gui.popup("您键入了错误的数据！！！")
