@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd88017-6c61-4032-a82f-b31691624232" name="变更" comment="配置文件更新">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/笔记/Windows通知/单击通知以运行函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/笔记/Windows通知/单击通知以运行函数.py" afterDir="false" />
-    </list>
+    <list default="true" id="1dd88017-6c61-4032-a82f-b31691624232" name="变更" comment="配置文件更新" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
