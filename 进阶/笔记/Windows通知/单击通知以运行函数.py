@@ -1,5 +1,4 @@
 # 导入
-import time
 from win10toast_click import ToastNotifier
 from PySimpleGUI import popup
 
