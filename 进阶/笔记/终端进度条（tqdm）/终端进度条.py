@@ -2,7 +2,7 @@
 # _*_coding: utf-8 _*_
 # @Time :  10:19
 # @Author : Mark Melendez
-# @File : cmd进度条.py
+# @File : 终端进度条.py
 # @desc :
 # -----------------------------begin-------------------------------
 # 导入依赖包
