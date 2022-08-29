@@ -16,16 +16,22 @@ import PySimpleGUI as Gui
 # 定义必要变量（函数等）
 
 Start_Layout = [
-    [Gui.CB('透明度')],
+    [Gui.CB('透明度（勾选后将失去颜色参考SK选项）')],
     [Gui.B('确定'), Gui.T('更多', enable_events=True)]
 ]
 
 
-def Creat_Showwindow(color):
-    Show_Layout = [
-        [Gui.T(color), Gui.T("该结果已复制到您的剪贴板")],
-        [Gui.B("复制到剪切板并关闭"), Gui.B("了解更多关于此颜色的信息")]
-    ]
+def Creat_Showwindow(color, alpha):
+    if alpha:
+        Show_Layout = [
+            [Gui.T(color), Gui.T("该结果已复制到您的剪贴板")],
+            [Gui.B("复制到剪切板并关闭")]
+        ]
+    else:
+        Show_Layout = [
+            [Gui.T(color), Gui.T("该结果已复制到您的剪贴板")],
+            [Gui.B("复制到剪切板并关闭"), Gui.B("了解更多关于此颜色的信息")]
+        ]
     return Show_Layout
 
 
@@ -54,7 +60,7 @@ def main():
     # 随机随机选取颜色
     elif Start_Event == '确定':
         Result = RandomColor(Start_Values[0])
-        Show_Layout = Creat_Showwindow(Result)
+        Show_Layout = Creat_Showwindow(Result, Start_Values[0])
         logging.error(Start_Values[0])
         Show_Window = Gui.Window("最终颜色", Show_Layout)
         Show_Event, Show_Values = Show_Window.read()  # Show_Values没用，只是为了正确读取Show_Event
