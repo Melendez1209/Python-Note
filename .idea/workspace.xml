@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd88017-6c61-4032-a82f-b31691624232" name="变更" comment="随机颜色打包完成">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/实战/随机颜色/随机颜色.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/实战/随机颜色/随机颜色.py" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/实战/随机颜色/随机颜色.py" afterDir="false" />
-    </list>
+    <list default="true" id="1dd88017-6c61-4032-a82f-b31691624232" name="变更" comment="随机颜色打包完成" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -987,7 +982,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661761074029</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="随机颜色打包完成">
+      <created>1661761574583</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1661761574583</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
