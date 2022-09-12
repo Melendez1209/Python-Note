@@ -16,7 +16,7 @@ import PySimpleGUI as Gui
 # 定义必要变量（函数等）
 
 Start_Layout = [
-    [Gui.CB('透明度（勾选后将失去颜色参考SK选项）')],
+    [Gui.CB('透明度（勾选后将失去颜色参考选项）')],
     [Gui.B('确定'), Gui.T('更多', enable_events=True)]
 ]
 
