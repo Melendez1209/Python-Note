@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dd88017-6c61-4032-a82f-b31691624232" name="变更" comment="拼音转换器">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/进阶/实战/汉字转拼音/拼音转换器.py" beforeDir="false" afterPath="$PROJECT_DIR$/进阶/实战/汉字转拼音/拼音转换器.py" afterDir="false" />
-    </list>
+    <list default="true" id="1dd88017-6c61-4032-a82f-b31691624232" name="变更" comment="拼音转换器完成" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1077,7 +1074,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666932056495</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="拼音转换器完成">
+      <created>1666936076649</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1666936076649</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1106,7 +1110,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="21点，初步发牌" />
     <MESSAGE value="变量重命名" />
     <MESSAGE value="发牌功能完成" />
     <MESSAGE value="注释" />
@@ -1131,6 +1134,7 @@
     <MESSAGE value="随机颜色fix" />
     <MESSAGE value="随机颜色fix打包" />
     <MESSAGE value="拼音转换器" />
-    <option name="LAST_COMMIT_MESSAGE" value="拼音转换器" />
+    <MESSAGE value="拼音转换器完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="拼音转换器完成" />
   </component>
 </project>
