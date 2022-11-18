@@ -6,7 +6,6 @@
 # @desc :
 # -----------------------------begin-------------------------------
 # 导入依赖包
-import time
 
 import PySimpleGUI as Gui
 import pyperclip
